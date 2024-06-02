@@ -141,3 +141,29 @@ body {
 .team-member-card p {
     margin-bottom: 0;
 }
+
+/* Styling for result cards */
+.result-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.result-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.result-card h3 {
+    margin: 10px 0;
+}
+
+.result-card p {
+    margin-bottom: 0;
+}
